@@ -6,7 +6,7 @@ public class Ejercicio6 {
 	public static boolean esPalindromo (String texto) {
 		
 		//caso base
-		if(texto.length()==0 || texto.length()==1) {
+		if(texto == null || texto.length()<=1) {
 			return true;
 		}
 		//caso recursivo

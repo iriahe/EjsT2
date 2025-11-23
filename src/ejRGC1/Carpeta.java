@@ -22,7 +22,7 @@ public class Carpeta {
 		List<Archivo> subArchivos = inicio.getArchivos();
 		List<Carpeta> subSubCar = inicio.getSubcarpetas();
 		
-		//caso base
+		//caso base (se puede suprimir)
 		if(subArchivos.isEmpty() && subSubCar.isEmpty()) {
 			return 0;
 		}
